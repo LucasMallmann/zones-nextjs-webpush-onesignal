@@ -1,6 +1,8 @@
-import Link from 'next/link'
+import Link from "next/link";
 
 export default function Blog() {
+  console.log(window.OneSignal);
+
   return (
     <div>
       <h3>This is our blog</h3>
@@ -24,5 +26,5 @@ export default function Blog() {
         />
       </div>
     </div>
-  )
+  );
 }
