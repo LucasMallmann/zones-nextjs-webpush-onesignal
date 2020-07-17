@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 export default function Blog() {
   useEffect(() => {
-    console.log(window.OneSignal);
+    console.log(window?.OneSignal);
   }, []);
 
   return (
