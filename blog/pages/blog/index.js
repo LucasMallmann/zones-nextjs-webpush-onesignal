@@ -1,7 +1,10 @@
 import Link from "next/link";
+import { useEffect } from "react";
 
 export default function Blog() {
-  console.log(window.OneSignal);
+  useEffect(() => {
+    console.log(window.OneSignal);
+  }, []);
 
   return (
     <div>
